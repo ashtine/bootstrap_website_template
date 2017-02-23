@@ -1,3 +1,4 @@
+/** Nav **/
 
 .navbar-default {
     background-color: #033048;
@@ -32,4 +33,26 @@
 }
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
     color: white;
+}
+/**Cover**/
+.btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary {
+    display: none;
+}
+.btn {
+    padding: 12px 50px;
+}
+.btn-primary {
+    color: black;
+    background-color: yellow;
+    border: none;
+}
+.btn-primary:hover{
+    color: black;
+    background-color: yellow;
+    border-color: none;
+}
+.btn-primary.focus, .btn-primary:focus {
+    color: black;
+    background-color: yellow;
+    border-color: none;
 }
