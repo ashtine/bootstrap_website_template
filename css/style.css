@@ -27,7 +27,6 @@ h1 {
 }
 
 /**Benefits**/
-
 #benefits h1 {
     color: black;
     font-weight: 800;
@@ -40,4 +39,20 @@ ul {
     text-indent: 50px;
     list-style-position: inside;
     font-weight: 300;
+    padding-bottom: 20px;
+}
+
+/**Testimony**/
+
+#testimony {
+    background: url(../images/testimonial_bg.jpg) no-repeat fixed center rgb(134,141,157);
+  background-size: cover;
+}
+blockquote {
+    padding: 100px;
+    border-left: none;
+    color: white;
+    font-style: italic;
+    font-weight: 600;
+
 }
