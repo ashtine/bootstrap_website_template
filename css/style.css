@@ -20,7 +20,7 @@ body {
 }
 h1 {
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 500;
     padding: 30px;
     padding-bottom: 10px;
@@ -34,12 +34,14 @@ h1 {
 #benefits p {
     padding-left: 30px;
     font-weight: 500;
+    font-size: 12px;
 }
 ul {
     text-indent: 50px;
     list-style-position: inside;
     font-weight: 300;
     padding-bottom: 20px;
+    font-size: 12px;
 }
 
 /**Testimony**/
@@ -53,6 +55,24 @@ blockquote {
     border-left: none;
     color: white;
     font-style: italic;
-    font-weight: 600;
+    font-weight: 300;
+
+}
+
+/**Desktop/Tablet**/
+
+@media only screen and (min-width: 768px) {
+    blockquote{
+        font-size: 30px;
+ }
+h1 {
+    font-size: 30px;
+    }
+#benefits p {
+    font-size: 16px;
+    }
+ul {
+    font-size: 14px;
+}
 
 }
