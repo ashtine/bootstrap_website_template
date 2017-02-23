@@ -56,7 +56,11 @@ blockquote {
     color: white;
     font-style: italic;
     font-weight: 300;
-
+}
+blockquote span {
+  font-weight: 600;
+  display: block;
+  font-style: normal;
 }
 
 /**Desktop/Tablet**/
