@@ -1,0 +1,15 @@
+
+.navbar-default {
+    background-color: #033048;
+    border:none;
+}
+
+.navbar-default .navbar-toggle {
+    border:none;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: yellow;
+}
+.nav.navbar-nav{
+    float: right;
+}
