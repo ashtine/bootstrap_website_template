@@ -1,10 +1,24 @@
-    
-a {color:inherit;}      /* unvisited link */
-a:visited {color:inherit;}  /* visited link */
-a:hover {color:inherit;}  /* mouse over link */
-a:active {color:inherit;}
+/** Overall Style classes
+**/
+.center-me {
+    text-align: center;
+}
+
+/**Layout**/
 
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: ;
+}
+/**Top**/
+#cover {
+    background: url(../images/header_bg.jpg) no-repeat fixed center rgb(134,141,157);
+  background-size: cover;
+  height: 400px;
+}
+h1 {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 30px;
 }
