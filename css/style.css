@@ -63,15 +63,24 @@ blockquote span {
   font-style: normal;
 }
 
+/**SIGN UP**/
+
+#sign-up {
+    background-color: yellow;
+}
+#sign-up.button.btn.btn-primary {
+    background-color: blue;
+
+}
 /**Desktop/Tablet**/
 
 @media only screen and (min-width: 768px) {
 #cover {
     height: 400px;
-}
+    }
 blockquote{
         font-size: 30px;
- }
+    }
 h1 {
     font-size: 30px;
     }
@@ -80,6 +89,6 @@ h1 {
     }
 ul {
     font-size: 14px;
-}
+    }
 
 }
